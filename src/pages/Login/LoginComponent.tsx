@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../../styles/pageStyles/Login.module.scss";
+import styles from "./Login.module.scss";
 import classNames from "classnames/bind";
 import { signin, signup } from "../../services/auth";
 import { useNavigate } from "react-router";

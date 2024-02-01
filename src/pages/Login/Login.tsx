@@ -1,12 +1,10 @@
-import { useState } from "react";
-import styles from "../../styles/pageStyles/Login.module.scss";
-import classNames from "classnames/bind";
-import { AvatarIcon, BellIcon, DownloadIcon, Roof } from "../../assets/icon";
 
+import styles from "./Login.module.scss";
+import classNames from "classnames/bind";
 import { LargeBear } from "../../assets/svg/largeBear";
-import LoginComponent from "../../components/initial/LoginComponent";
+import LoginComponent from "./LoginComponent";
 import Header from "../../components/Header";
-import { Heart } from "../../assets/svg/star";
+
 
 const cx = classNames.bind(styles);
 function Login() {

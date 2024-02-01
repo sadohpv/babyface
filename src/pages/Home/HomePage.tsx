@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 
 import { useEffect, useState } from "react";
 
-import styles from "../../styles/pageStyles/Home.module.scss";
+import styles from "./Home.module.scss";
 import classNames from "classnames/bind";
 import Header from "../../components/Header";
 import { RoundArrow, RoundArrow_2, RoundArrow_3 } from "../../assets/icon";
